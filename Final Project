@@ -44,7 +44,7 @@ def valid(computer_move, player_score, computer_score):
 def result(player_move, computer_move, player_score, computer_score):
     if player_move == computer_move:      #Tie
         print('Tie!')
-    elif player_move == 'rock':
+    elif player_move == 'rock':           #Player Rock
         if computer_move == 'paper':
             print('Haha you lose!')
             computer_score += 1
